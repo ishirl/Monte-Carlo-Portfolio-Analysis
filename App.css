@@ -1,0 +1,66 @@
+/* App container styling for a flexbox layout */
+.appContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+  background-color: #f4f4f4; /* You can change this color to match your aesthetic */
+}
+
+/* Pie chart container styling */
+.PieChart {
+  width: 300px; /* Adjust the width as needed */
+  height: 300px; /* Adjust the height as needed */
+  margin: 0 auto; /* This centers the pie chart horizontally */
+}
+
+/* Form and List styling */
+.InputForm,
+.StockList {
+  margin-top: 20px; /* Adds spacing above the form and list */
+}
+
+/* Form styling */
+.InputForm {
+  width: 100%; /* Full width */
+}
+
+/* Stock list styling */
+.StockList {
+  width: 250px; /* Set a fixed width for the stock list */
+  margin-left: 20px; /* Adds spacing between the list and other content */
+}
+
+/* Styling list items for stocks */
+.StockList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 5px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styling within the stock list for a modern look */
+.StockList button {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+}
+
+.StockList button:hover {
+  background-color: #0056b3;
+}
+
+/* Ensure the main container doesn't overflow the viewport height */
+html, body {
+  height: 100%;
+  margin: 0;
+}
